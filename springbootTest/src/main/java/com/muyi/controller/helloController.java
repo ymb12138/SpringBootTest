@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * Created by Administrator on 2020/6/20 0020.
  */
+
+/*测试git修改提交*/
 @RestController
 public class helloController {
 
@@ -16,6 +18,8 @@ public class helloController {
     }
     @RequestMapping("/he")
     public String tt(){
+
+
         return "hello,sp那份大部分";
     }
 
